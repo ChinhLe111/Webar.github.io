@@ -1,0 +1,11 @@
+Model Information:
+* title:	Blue Smurf Cat
+* source:	https://sketchfab.com/3d-models/blue-smurf-cat-fe75e55bc224400690295bfedd53cb7e
+* author:	Flinky (https://sketchfab.com/kaifm863)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Blue Smurf Cat" (https://sketchfab.com/3d-models/blue-smurf-cat-fe75e55bc224400690295bfedd53cb7e) by Flinky (https://sketchfab.com/kaifm863) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
