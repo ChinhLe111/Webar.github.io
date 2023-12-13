@@ -21,7 +21,7 @@
             <a-assets>
                 <a-asset-item
                     id="animated-asset"
-                    src="/assets/asset.glb"
+                    src="blue_smurf_cat/scene.gltf"
                 ></a-asset-item>
             </a-assets>
 
@@ -29,20 +29,21 @@
                 id="animated-marker"
                 type="pattern"
                 preset="custom"
-                url="/assets/marker.patt"
+                url="assets/marker.patt"
                 raycaster="objects: .clickable"
                 emitevents="true"
                 cursor="fuse: false; rayOrigin: mouse;"
                 id="markerA"
+                scale="0.8 0.8 0.8"
             >
-            <a-entity
-            id="bowser-model"
-            scale="0.5 0.5 0.5"
-            animation-mixer="loop: repeat"
-            gltf-model="#animated-asset"
-            class="clickable"
-            gesture-handler
-        ></a-entity>
+                <a-entity
+                    id="bowser-model"
+                    scale="0.5 0.5 0.5"
+                    animation-mixer="loop: repeat"
+                    gltf-model="#animated-asset"
+                    class="clickable"
+                    gesture-handler
+                ></a-entity>
             </a-marker>
 
             <a-entity camera></a-entity>
