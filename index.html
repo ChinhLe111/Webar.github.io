@@ -23,6 +23,10 @@
                     id="animated-asset"
                     src="phoenix_bird/scene.gltf"
                 ></a-asset-item>
+                <a-asset-item
+                id="animated-asset2"
+                src="bird/scene.gltf"
+            ></a-asset-item>
             </a-assets>
 
             <a-marker
@@ -38,13 +42,23 @@
             >
                 <a-entity
                     id="bowser-model"
-                    scale="5 5 5"
+                    scale="1 1 1"
                     rotation="-90 0 0"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
+                <a-entity
+                id="bowser-model"
+                scale="1 1 1"
+                position="3 2 5"
+                rotation="-90 0 0"
+                animation-mixer="loop: repeat"
+                gltf-model="#animated-asset2"
+                class="clickable"
+                gesture-handler
+            ></a-entity>
             </a-marker>
 
             <a-entity camera></a-entity>
