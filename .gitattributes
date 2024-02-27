@@ -1,3 +1,2 @@
-*.psd filter=lfs diff=lfs merge=lfs -text
 village.glb filter=lfs diff=lfs merge=lfs -text
 village.usdz filter=lfs diff=lfs merge=lfs -text
